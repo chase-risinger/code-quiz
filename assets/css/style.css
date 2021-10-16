@@ -4,11 +4,27 @@
     margin: 10px;
 }
 
+
+.highscore{
+position: absolute;
+    left: 10px;
+    margin: 10px;
+}
+
+#score{
+    position: absolute;
+    right: 10px;
+    margin: 10px;
+    top: 50px;
+}
+
 body{
     display: flex;
 }
 #game-card{
     justify-content: center;
+    background-color: rgb(203, 253, 255);
+    height: 300px;
 }
 
 #start-btn{
@@ -17,4 +33,12 @@ body{
     align-content: center;
     margin: auto;
     
+}
+
+.correct{
+    color: green;
+}
+
+.wrong{
+    color: red;
 }
